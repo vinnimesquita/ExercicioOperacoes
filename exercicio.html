@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dividindo Valores</title>
+    <meta charset="utf-8">
+    <script src="validar.js"></script>
+
+    <head>
+        <style>
+            body {
+                align-items: center;
+            }
+            
+            label {
+                font-size: 20px;
+            }
+            
+            input {
+                font-size: 18px;
+            }
+            
+            div {
+                font-size: 20px;
+            }
+            
+            p {
+                font-size: 20px;
+            }
+        </style>
+
+        <body>
+            <div>
+                <label>Número 1:</label>
+                <input type="number" name="x1" id="txn1"><br><br>
+                <label>Número 2:</label>
+                <input type="number" name="x2" id="txn2"><br><br>
+                <input type="button" value="Adição" onclick="soma()">
+                <input type="button" value="Subtração" onclick="subtracao()">
+                <input type="button" value="Multiplicação" onclick="multiplicacao()">
+                <input type="button" value="Divisão" onclick="divisao()">
+                <input type="button" value="Divisão (Inteira) " onclick="divisaoInteira()">
+                <br><br>
+                <label id="operacao"><b>Operação: </b>Escolha uma operação! </label><br><br>
+                <label id="resultado"><b>Resultado: - </b> </label><br><br>
+                <label id="resto"></label>
+
+            </div>
+        </body>
+
+</html>
